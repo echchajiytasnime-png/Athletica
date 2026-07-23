@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Bree Serif', serif;
+}
+.contenu {
+  margin: 30px;
+}
+
+/* ===== HEADER ===== */
+.banniere {
+  width: 100%;
+  height: 25vh;
+  min-height: 140px;
+  position: relative;
+  overflow: visible;
+  background-image: url("../imagesHackaton/fond-banniere2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 0 40px;
+}
+.banniere > a {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  height: 135px;
+  width: 135px;
+  position: relative;
+  z-index: 2;
+}
+.logo {
+  height: 135px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+.menu {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 30px;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+.menu a {
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+  color: #5dc1b9;
+  text-decoration: none;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+.menu a:hover {
+  color: #ff0077;
+}
+.bouton {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+  background-color: #ff0077;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+.bouton:hover {
+  background-color: #ff599e;
+}
+
+/* ===== ESPACES SPORTIFS ===== */
+.bloc-sportifs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bloc-image-sportifs img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.bloc-texte-sportifs {
+  background-color: #7b3fa0;
+  color: white;
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.bloc-texte-contenu {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+.bloc-texte-contenu h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.bloc-texte-contenu p {
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.bloc-logo-flowy {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+}
+.bloc-logo-flowy img {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ===== FOOTER BANDEAU ===== */
+.footer-bandeau {
+  width: 100%;
+  min-height: 280px;
+  position: relative;
+  margin-top: 60px;
+  background-image: url("https://i.pinimg.com/vwebp/1200x/29/f0/aa/29f0aa9942da2b5c3d1f5c65a04eb11e.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer-overlay {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  background-color: rgba(255, 255, 255, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 60px;
+  position: relative;
+}
+.footer-logo {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  height: 130px;
+  width: auto;
+  object-fit: contain;
+}
+.footer-equipe {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+.footer-equipe p {
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+  color: #7b3fa0;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+.footer-instagram {
+  flex-shrink: 0;
+  text-align: center;
+  min-width: 180px;
+}
+.footer-instagram p {
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+  color: #ff0077;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+.footer-qrcode {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: white;
+  padding: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+.footer-qrcode:hover {
+  transform: scale(1.05);
+}
+.lien-flowy {
+  color: #5dc95d;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+.lien-flowy:hover {
+  color: #8fe68f;
+}

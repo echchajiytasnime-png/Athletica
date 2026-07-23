@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Athletica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="hachaton.css">
+</head>
+<body>
+  <header class="banniere">
+    <a href="hackaton.html">
+      <img src="imagesHackaton/logo.png" alt="Logo Balise" class="logo">
+    </a>
+    <nav class="menu">
+      <a href="rencontres/rencontres.html">Rencontres</a>
+      <a href="espacessportifs/espacessportifs.html">Espaces sportifs</a>
+      <a href="controleparental/controleparental.html">Espace parentals</a>
+    </nav>
+    <a href="https://asma-abdou-elghanis-team.adalo.com/athl-tica" target="_blank" rel="noopener noreferrer" class="bouton">Télécharger l'appli</a>
+  </header>
+
+  <div class="contenu">
+    <h1>Athletica</h1>
+    <br>
+    <br>
+    <div class="container">
+      <div class="texte"></div>
+      <h2>Qui sommes nous?</h2>
+      <br>
+      <p>
+        Athletica est une application destinée aux jeunes filles de 15 à 26 ans qui souhaitent pratiquer une activité sportive dans un environnement plus sûr et plus rassurant. Son objectif est de rendre le sport plus accessible en permettant aux utilisatrices de trouver une partenaire avec qui s'entraîner, tout en créant une communauté bienveillante où chacune peut échanger et se motiver. La sécurité étant au cœur du projet, l'application propose notamment le partage de la localisation avec les parents, avec l'accord de l'utilisatrice, ainsi qu'une carte des espaces sportifs adaptés. Athletica a pour ambition de donner aux adolescentes et aux jeunes femmes la confiance nécessaire pour pratiquer le sport plus facilement, faire de nouvelles rencontres et profiter pleinement de leur activité.
+      </p>
+      <div class="image">
+        <img src="imagesHackaton/athlete.png" alt="Mon image">
+      </div>
+    </div>
+
+    <div class="section-duo">
+      <div class="texte-gauche">
+        <h2>Fais le premier pas, Athletica avancera toujours avec toi!</h2>
+        <p>
+          Team Tasse
+        </p>
+      </div>
+      <div class="texte-droite">
+        <h2>Pourquoi Athletica ?</h2>
+        <ul>
+          <li>🏃 Trouver une partenaire de sport</li>
+          <li>🛡️ Pratiquer en toute sécurité</li>
+          <li>📍 Partage de localisation</li>
+          <li>🗺️ Carte des espaces sportifs</li>
+          <li>💬 Communauté bienveillante</li>
+          <li>💪 Motivation et entraide</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CHATBOT (CSS pur, sans JS) ===== -->
+
+  <!-- Checkbox cachée qui gère l'ouverture/fermeture -->
+  <input type="checkbox" id="chatbotToggle" class="chatbot-toggle-input">
+
+  <!-- Overlay commun -->
+  <label for="chatbotToggle" class="modal-overlay"></label>
+
+  <!-- Bouton chatbot -->
+  <label for="chatbotToggle" class="chatbot-icone">
+    <img src="imagesHackaton/chatbot.png" alt="Chatbot">
+  </label>
+
+  <!-- Fenêtre du chatbot -->
+  <div class="chatbot-fenetre" id="chatbotFenetre">
+    <div class="chatbot-title-bar">
+      <span>💬 Assistant Athletica</span>
+      <div class="buttons">
+        <span></span>
+        <span></span>
+        <label for="chatbotToggle" class="close-btn"></label>
+      </div>
+    </div>
+    <div class="chatbot-content">
+      <img src="imagesHackaton/chatbox.png" alt="Conversation chatbot" class="chatbot-image">
+    </div>
+  </div>
+
+</body>
+
+<footer class="footer-bandeau">
+  <div class="footer-overlay">
+    <img src="imagesHackaton/logo.png" alt="Logo Athletica" class="footer-logo">
+
+    <div class="footer-equipe">
+      <p>Tasnime : designer web</p>
+      <p>Sawda : directrice communication</p>
+      <p>Asma : directrice artistique</p>
+    </div>
+
+    <div class="footer-instagram">
+      <p>Scanez nous pour nous rejoindre sur Instagram</p>
+      <a href="LIEN_INSTAGRAM_A_AJOUTER" target="_blank">
+        <img src="imagesHackaton/qr-code.png" alt="QR code Instagram Athletica" class="footer-qrcode">
+      </a>
+    </div>
+  </div>
+</footer>
+</html>
